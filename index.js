@@ -41,7 +41,7 @@ function addGamesToPage(games) {
         let goalNum = games[i].goal;
         let backersNum = games[i].backers;
         let gameImage = document.createElement("img");
-        gameImage.src = games[i].image;
+        gameImage.src = games[i].img;
         gameImage.className = "game-img";
 
 
@@ -49,12 +49,12 @@ function addGamesToPage(games) {
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
-        newGame.textContent = 
-        `Name: ${nameText}
-        Description: ${descriptionText}
-        Pledged: ${pledgedNum}
-        Goal: ${goalNum}
-        Backers: ${backersNum}`;
+        newGame.innerHTML = 
+        `<h2>${nameText}</h2>
+        <p>Description: ${descriptionText}</p>
+        <p>Pledged: ${pledgedNum}</p>
+        <p>Goal: ${goalNum}</p>
+        <p>Backers: ${backersNum}</p>`;
         newGame.appendChild(gameImage);
         
         // append the game to the games-container
@@ -64,7 +64,7 @@ function addGamesToPage(games) {
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-
+addGamesToPage(GAMES_JSON);
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
