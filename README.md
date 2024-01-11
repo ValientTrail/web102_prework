@@ -18,6 +18,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [X] List anything else that you can get done to improve the app functionality!
+
 Navbar implemented to allow user to quickly navigate to Stats and Our Games sections
 
 ## Video Walkthrough
