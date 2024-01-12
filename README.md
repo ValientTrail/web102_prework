@@ -1,13 +1,10 @@
 # WEB102 Prework - *Sea Monster Top Games*
-# WEB102 Prework - *Sea Monster Top Games*
 
 Submitted by: **Raymond Zegles**
 
 **Sea Monster Top Games** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
-**Sea Monster Top Games** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **20** hours spent in total
-Time spent: **20** hours spent in total
+Time spent: **22** hours spent in total
 
 ## Required Features
 
@@ -33,7 +30,7 @@ Search bar added to allow user to search for a game by name
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/eYbanIj.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/Sea_Monster_Top_Games Demonstration_Raymond_Z.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif 
