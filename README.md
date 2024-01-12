@@ -24,6 +24,7 @@ The following **optional** features are implemented:
 * [X] List anything else that you can get done to improve the app functionality!
 
 Navbar added to allow faster access to Stats and Our Games sections
+
 Search bar added to allow user to search for a game by name
 
 ## Video Walkthrough
