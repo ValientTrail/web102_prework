@@ -48,7 +48,7 @@ There were a few challenges I encountered when building the app. The first was t
 
 ## License
 
-    Copyright [2024] [Raymond Zegles]
+    Copyright [2024] [Sea Monster Crowdfunding]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
