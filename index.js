@@ -190,3 +190,23 @@ firstGameContainer.appendChild(topPledgeName);
 const runnerUpName = document.createElement("p"); 
 runnerUpName.textContent = runnerName;
 secondGameContainer.appendChild(runnerUpName);
+
+const searchBar = document.getElementById("search-bar");
+function searchFilter(){
+    if(event.key === 'Enter' ){
+        const searchInput = document.getElementById("search-bar").value.toLowerCase();
+        deleteChildElements(gamesContainer);
+        let searchList = GAMES_JSON.filter((game) => { 
+            return game.name.toLowerCase().includes(searchInput);
+        });
+        if(searchList.length <= 0){
+            gamesContainer.innerHTML = `<h3>There are no games with that name.</h3>`;
+        }else{
+            addGamesToPage(searchList);
+        }
+        
+        gamesContainer.scrollIntoView();
+    }
+}
+
+searchBar.addEventListener('keypress', searchFilter);

@@ -1,32 +1,35 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Sea Monster Top Games*
 
 Submitted by: **Raymond Zegles**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Top Games** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [X] The introduction section explains the background of the company and how many games remain unfunded.
+* [X] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [X] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [X] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] List anything else that you can get done to improve the app functionality!
+
+Navbar added to allow faster access to Stats and Our Games sections
+Search bar added to allow user to search for a game by name
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/eYbanIj.gifv' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -35,6 +38,8 @@ GIF created with ...
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+There were a few challenges I encountered when building the app. The first was trying to fill in the code for the addGamesToPage function. At first, I couldn't figure out the way to properly display the game elements in  the template string, but with some help I was able to fix the problem by changing the innerHTML property of my div tag instead of textContent. The second challenge I had was that my VS Code's Github plugin broke and refused to push my changes to my remote repository. I was able to get around that by using Github Desktop to commit and push my changes instead of using the Github plugin. The final challenge I encountered was getting the two bonus features I implemented to fit onto the right spots on the page. I had to split the header up into three parts, header-left, header-right, and navbar-links, each with their own style rules to accomplish this.
 
 ## License
 
