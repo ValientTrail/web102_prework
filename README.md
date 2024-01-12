@@ -4,7 +4,7 @@ Submitted by: **Raymond Zegles**
 
 **Sea Monster Top Games** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **22** hours spent in total
+Time spent: **20** hours spent in total
 
 ## Required Features
 
